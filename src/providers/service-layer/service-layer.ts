@@ -6,8 +6,8 @@ import { Events } from 'ionic-angular';
 @Injectable()
 export class ServiceLayerProvider {
 
-  baseURL: string = "https://immigrantnationinc.com/sos-new/request-";
-  // baseURL: string = "http://dev20.onlinetestingserver.com/sos-new/request-";
+  baseURL: string = "http://dev20.onlinetestingserver.com/sos-new/request-";
+  
   constructor(private network: NetworkProvider, private events: Events) {
     console.log('Hello ServiceLayerProvider Provider');
   }
