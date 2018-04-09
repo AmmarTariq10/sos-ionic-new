@@ -1,0 +1,16 @@
+<ion-header class="top-head">
+  <h1>SISTEMA DE ALARMA IMMIGRANT NATION</h1>
+</ion-header>
+
+
+<ion-content class="main-bg" padding>
+  <!-- <h1>HEY...</h1> -->
+  <h5>PRESIONE EL BOTON DE ALARMA EN CASO DE EMERGENCIA</h5>
+  <div [ngClass]="cls ? 'arrow' : 'bounce'"></div>
+
+  <button [disabled]="cls" (click)="showPrompt()" [ngClass]="cls ? 'idy_heart' : 'idy_heart-pause'">
+    <i class="ti-heart">
+      <img src="assets/imgs/sos-btn.png" />
+    </i>
+  </button>
+</ion-content>

@@ -1,0 +1,146 @@
+page-login {
+    .main-bg{
+        background: url(../assets/imgs/bac.png) no-repeat;
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        background-size: cover;
+        }
+        .logo-img{
+        max-width: 60vw;
+        display: block;
+        margin: 0px auto;
+        }    
+        .login-button {
+            background: #df1e36 !important;
+            border-radius: 5px;
+            font-size: 5vw;
+            padding: 7.5vw;
+            font-family: 'Conv_Gotham-Bold'; font-weight: 700;
+            text-transform: uppercase;
+        }
+        .register-button   {
+            background: #ffffff !important;
+            color: #053b6f !important;
+            border-radius: 5px;
+            font-size: 5vw;
+            padding: 7.5vw;    	font-family: 'Conv_Gotham-Bold'; font-weight: 700;
+        }
+        .fields {
+        background:rgba(119, 15, 15, 0.11) !important;
+        border: none !important;
+        margin-bottom: 15px !important;
+        color: white !important;
+        border-radius: 7px !important;  font-size: 5vw;
+        display: block;
+        width: 100%;
+       
+        }
+        .list-ios {
+            margin: 0px !important;
+        }
+        .login-input{
+            font-family: 'Conv_Gotham-Medium';
+        color: #fff;
+        padding: 2vw;
+        text-decoration: none !important;
+       
+        }
+        .icn{
+            margin: 3.5vw 0 0 3vw;
+            color:#c1c1c1 !important;
+        }
+        .list-ios .item-block .item-inner {
+         border: none!important;
+        }
+        .input-space {
+            margin-top: 8vw;
+        }
+        *::-webkit-input-placeholder {
+            color: #c1c1c1 !important;
+          }
+        *:-moz-placeholder {
+            color: #c1c1c1 !important;
+          }
+        *:-ms-input-placeholder { /* IE10+ */
+            color: #c1c1c1 !important;
+          }
+        .input-icon {
+            margin-top: 3vw;
+            padding-left: 5vw;
+        }
+        .or {
+            text-align: center;
+            color: white;
+            font-size: 5vw;
+            font-family: 'Conv_Gotham-Bold';
+            font-weight: 700;   
+             padding-top: 2vw;
+        }
+        .ForgetPassword {
+            text-decoration: none !important;
+            color: white;
+            font-family: 'Conv_Gotham-Bold';
+            font-size: 4vw;
+            text-align: right;
+        }
+        .form-control.ng-invalid{
+            background: url(../assets/imgs/wrong.png) no-repeat 97% 45%;
+            background-size:8%; 
+            
+        }
+        
+       .form-control.ng-valid{
+        background: url(../assets/imgs/right.png) no-repeat 97% 45%;
+        background-size:8%; 
+        }
+
+        ion-item{
+            margin: 0px auto !important;
+            padding: 0px !important;
+            height: auto !important;
+            background: transparent !important;
+            border: none !important;
+            font-size: auto !important;
+            min-height: auto !important;
+            }
+            .item-input:last-child {
+            border-bottom: none !important;
+            }
+            .item-md.item-block .item-inner {
+            padding-right: 0px !important;
+            border-bottom: 1px solid #dedede;
+            }
+            .list-md {
+            margin: 0px !important;
+            }
+            .input-has-focus{
+            border-bottom: none !important;
+            box-shadow: none !important;
+            }
+
+            .item-block .item-inner {
+                padding-right: 0px !important;
+                padding-right: 0px !important;
+                border-bottom: none;
+            }
+            .error-h5{
+                text-align: center;
+                font-size: 6vw;
+                color: #fff;
+                font-family: 'Conv_Gotham-Bold';
+                margin: 3vw 0;
+            }
+            .list-md .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child, .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child {
+                border-bottom-color: transparent;
+                -webkit-box-shadow: inset 0 0px 0 0 transparent;
+                box-shadow: inset 0 0px 0 0 transparent;
+            }
+
+            .list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus):last-child {
+                border-bottom-color: transparent;
+                -webkit-box-shadow: inset 0 0px 0 0 transparent;
+                box-shadow: inset 0 0px 0 0 transparent;
+            }
+            
+}

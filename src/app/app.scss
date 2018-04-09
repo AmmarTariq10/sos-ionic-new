@@ -1,0 +1,68 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+@font-face {
+	font-family: 'Conv_Gotham-Bold';
+	src: url('../assets/fonts/Gotham-Bold.eot');
+	src: local('☺'), url('../assets/fonts/Gotham-Bold.woff') format('woff'), url('../assets/fonts/Gotham-Bold.ttf') format('truetype'), url('../assets/fonts/Gotham-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Gotham-Medium';
+	src: url('../assets/fonts/Gotham-Medium.eot');
+	src: local('☺'), url('../assets/fonts/Gotham-Medium.woff') format('woff'), url('../assets/fonts/Gotham-Medium.ttf') format('truetype'), url('../assets/fonts/Gotham-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.alert-title {
+    text-align: center !important;
+}
+.alert-message {
+    max-height: 240px;
+    font-size: 15px;
+    text-align: center !important;
+    overflow: hidden;
+}
+.yesclass {
+    color: green !important;
+  }
+
+.noclass {
+  color: red !important;
+}
+ion-app.ios {
+    font-family: 'Conv_Gotham-Bold' ,  'Conv_Gotham-Medium' !important;
+    font-size: 1.4rem;
+    background-color: #fff;
+  }
+  
+  ion-app.md {
+    font-family: 'Conv_Gotham-Bold' ,  'Conv_Gotham-Medium' !important;
+    font-size: 1.4rem;
+    background-color: #fff;
+  }
+  
+  ion-app.wp {
+    font-family: 'Conv_Gotham-Bold' ,  'Conv_Gotham-Medium' !important;
+    font-size: 1.4rem;
+    background-color: #fff;
+  }
+  

@@ -1,0 +1,41 @@
+page-message {
+  .main-bg{
+    background: url(../assets/imgs/bac.png) no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-size: cover;
+    }
+    .logo-img{
+    max-width: 60vw;
+    display: block;
+    margin: 5vw auto;
+    }
+    .main-bg p{
+      color: #fff;
+      font-size: 4vw;
+      padding: 8vw 2vw;
+      text-align: center;
+      }
+      ion-footer{
+        background: #fff !important;
+      }
+      ion-footer span{
+        color: #064f9a;
+        font-size: 3.5vw;
+        font-weight: 700;
+        display: block;
+        text-transform: uppercase;
+        margin: 0px auto;
+        text-align: center;  
+      }
+      ion-footer ion-icon{
+        color: #064f9a;
+        font-size: 5vw;
+        font-weight: 700;
+        display: block;
+        text-transform: uppercase;
+        margin: 0px auto;
+        text-align: center;  
+      }
+}
